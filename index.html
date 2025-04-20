@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portafolio profesional de John Alexander Govea Vilchez - Desarrollador FullStack Java Junior" />
+  <title>John Alexander Govea - Desarrollador FullStack</title>
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">
+        <span class="text-primary">&lt;</span>John Govea<span class="text-primary">/&gt;</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars fa-lg"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html"><i class="fas fa-home me-1"></i> Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="portafolio.html"><i class="fas fa-code me-1"></i> Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html"><i class="fas fa-user me-1"></i> Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="cv.html"><i class="fas fa-file-alt me-1"></i> CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="reflexion.html"><i class="fas fa-lightbulb me-1"></i> Reflexión</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="hero text-white text-center" id="home">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row align-items-center hero-content" data-aos="fade-up">
+        <div class="col-lg-8 mx-auto">
+          <img src="profile.jpg" alt="Foto de perfil" class="profile-img mb-4" />
+          <h1 class="hero-title mb-3">John Alexander Govea Vilchez</h1>
+          <hr class="divider light my-4" />
+          <p class="hero-subtitle mb-5">Desarrollador FullStack Java Junior</p>
+          <div class="d-flex justify-content-center">
+            <a href="#servicios" class="btn btn-primary btn-lg me-3">
+              <i class="fas fa-arrow-down me-2"></i>Conoce mi trabajo
+            </a>
+            <a href="cv.html" class="btn btn-outline-light btn-lg">
+              <i class="fas fa-file-alt me-2"></i>Ver CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="tech-stack py-5">
+    <div class="container text-center">
+      <h2 class="section-title mb-5" data-aos="fade-up">Tecnologías que domino</h2>
+      <div class="row g-4">
+        <div class="col-4 col-md-2" data-aos="zoom-in" data-aos-delay="100">
+          <div class="tech-icon">
+            <i class="fab fa-java fa-3x"></i>
+            <p>Java</p>
+          </div>
+        </div>
+        <div class="col-4 col-md-2" data-aos="zoom-in" data-aos-delay="200">
+          <div class="tech-icon">
+            <i class="fab fa-js-square fa-3x"></i>
+            <p>JavaScript</p>
+          </div>
+        </div>
+        <div class="col-4 col-md-2" data-aos="zoom-in" data-aos-delay="300">
+          <div class="tech-icon">
+            <i class="fab fa-react fa-3x"></i>
+            <p>React</p>
+          </div>
+        </div>
+        <div class="col-4 col-md-2" data-aos="zoom-in" data-aos-delay="400">
+          <div class="tech-icon">
+            <i class="fab fa-node-js fa-3x"></i>
+            <p>Node.js</p>
+          </div>
+        </div>
+        <div class="col-4 col-md-2" data-aos="zoom-in" data-aos-delay="500">
+          <div class="tech-icon">
+            <i class="fab fa-html5 fa-3x"></i>
+            <p>HTML5</p>
+          </div>
+        </div>
+        <div class="col-4 col-md-2" data-aos="zoom-in" data-aos-delay="600">
+          <div class="tech-icon">
+            <i class="fab fa-css3-alt fa-3x"></i>
+            <p>CSS3</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="servicios" class="servicios py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title text-center mb-5" data-aos="fade-up">¿Qué encontrarás aquí?</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+          <div class="card h-100 service-card">
+            <div class="card-icon text-center mt-4">
+              <i class="fas fa-user-circle fa-3x text-primary"></i>
+            </div>
+            <div class="card-body text-center">
+              <h3 class="card-title h5">Sobre mí</h3>
+              <p class="card-text">Conoce más sobre mi experiencia, habilidades y objetivos profesionales.</p>
+              <a href="about.html" class="btn btn-outline-primary">Ver más <i class="fas fa-arrow-right ms-1"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+          <div class="card h-100 service-card">
+            <div class="card-icon text-center mt-4">
+              <i class="fas fa-laptop-code fa-3x text-primary"></i>
+            </div>
+            <div class="card-body text-center">
+              <h3 class="card-title h5">Proyectos</h3>
+              <p class="card-text">Explora mis proyectos, desde aplicaciones web hasta juegos blockchain.</p>
+              <a href="portafolio.html" class="btn btn-outline-primary">Ver más <i class="fas fa-arrow-right ms-1"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+          <div class="card h-100 service-card">
+            <div class="card-icon text-center mt-4">
+              <i class="fas fa-file-alt fa-3x text-primary"></i>
+            </div>
+            <div class="card-body text-center">
+              <h3 class="card-title h5">Currículum</h3>
+              <p class="card-text">Consulta mi experiencia laboral, educación y habilidades técnicas.</p>
+              <a href="cv.html" class="btn btn-outline-primary">Ver más <i class="fas fa-arrow-right ms-1"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+          <div class="card h-100 service-card">
+            <div class="card-icon text-center mt-4">
+              <i class="fas fa-lightbulb fa-3x text-primary"></i>
+            </div>
+            <div class="card-body text-center">
+              <h3 class="card-title h5">Reflexión</h3>
+              <p class="card-text">Lee mis pensamientos y reflexiones sobre mi trayectoria profesional.</p>
+              <a href="reflexion.html" class="btn btn-outline-primary">Ver más <i class="fas fa-arrow-right ms-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section class="contact py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="section-title mb-5" data-aos="fade-up">Contáctame</h2>
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-8">
+          <div class="contact-methods mb-4">
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="contact-item">
+                  <i class="fas fa-envelope fa-2x text-primary mb-3"></i>
+                  <h3 class="h5">Email</h3>
+                  <a href="mailto:goveavilchezjohn@gmail.com" class="text-decoration-none">goveavilchezjohn@gmail.com</a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="contact-item">
+                  <i class="fab fa-github fa-2x text-primary mb-3"></i>
+                  <h3 class="h5">GitHub</h3>
+                  <a href="https://github.com/AlexVil18" target="_blank" class="text-decoration-none">github.com/AlexVil18</a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="contact-item">
+                  <i class="fab fa-linkedin fa-2x text-primary mb-3"></i>
+                  <h3 class="h5">LinkedIn</h3>
+                  <a href="https://www.linkedin.com/in/john-govea-vilchez-fullstack/" target="_blank" class="text-decoration-none">linkedin.com/in/john-govea-vilchez</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5">
+            <a href="https://drive.google.com/file/d/1ZNIUIKyQuYeDVFJnbiEumTcyWpEQeKx4/view?usp=drive_link" class="btn btn-outline-primary btn-lg">Descargar CV <i class="fas fa-download ms-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-lg-start text-center mb-3 mb-lg-0">
+          <span>&copy; 2025 John Alexander Govea Vilchez. Todos los derechos reservados.</span>
+        </div>
+        <div class="col-lg-6 text-lg-end text-center">
+          <a class="social-icon me-3" href="https://github.com/AlexVil18" target="_blank">
+            <i class="fab fa-github fa-lg"></i>
+          </a>
+          <a class="social-icon me-3" href="https://www.linkedin.com/in/john-govea-vilchez-fullstack/" target="_blank">
+            <i class="fab fa-linkedin fa-lg"></i>
+          </a>
+          <a class="social-icon" href="mailto:goveavilchezjohn@gmail.com">
+            <i class="fas fa-envelope fa-lg"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+  <button type="button" class="btn btn-primary btn-floating" id="btn-back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
