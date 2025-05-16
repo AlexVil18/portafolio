@@ -9,7 +9,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(135deg, var(--dark-color), #16213e);
-  color: var(--light-color);
+  color: #f8f9fa; 
   margin: 0;
   padding-top: 70px;
   scroll-behavior: smooth;
@@ -160,29 +160,29 @@ body {
 
 /* Footer */
 .footer {
-  background-color: #f8f9fa; /* Fondo claro */
-  color: #212529; /* Texto oscuro */
-  border-top: 2px solid #e9ecef; /* Borde superior */
+  background-color: #f8f9fa; 
+  color: #212529; 
+  border-top: 2px solid #e9ecef; 
   padding: 20px 0;
 }
 
 .footer a {
-  color: #007bff; /* Enlaces en azul */
+  color: #007bff; 
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .footer a:hover {
-  color: #0056b3; /* Enlaces al pasar el cursor */
+  color: #0056b3; 
 }
 
 .footer .social-icon {
-  color: #6c757d; /* Iconos en gris */
+  color: #6c757d; 
   transition: color 0.3s ease;
 }
 
 .footer .social-icon:hover {
-  color: #007bff; /* Iconos al pasar el cursor */
+  color: #007bff; 
 }
 
 
@@ -221,7 +221,8 @@ body {
   transition: transform 0.3s ease;
   border: none;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
 }
 
 .project-card:hover {
@@ -285,7 +286,8 @@ body {
 
 
 .modal-content {
-  background: var(--dark-color);
+  background: #212529;
+  color: #f8f9fa;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
 }
@@ -295,12 +297,16 @@ body {
 }
 
 .modal-title {
-  color: var(--accent-color);
+  color: #ffd700;
   font-weight: 600;
 }
 
 .modal-body {
-  color: rgba(255, 255, 255, 0.9);
+  color: #e9ecef;
+}
+
+.modal-body strong {
+  color: #ffd700;
 }
 
 .modal-body ul {
@@ -445,4 +451,72 @@ body {
 
 .btn-outline-light:hover {
   color: var(--dark-color) !important;
+}
+
+
+/* Estilos para las tarjetas de proyectos */
+.project-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-card .card-body {
+    color: #f8f9fa;
+}
+
+.project-card .card-title {
+    color: #ffd700; 
+}
+
+.project-card .card-text,
+.project-card .project-details {
+    color: #e9ecef;
+}
+
+.project-card strong {
+    color: #ffd700; 
+}
+
+
+
+/* Estilos para los badges */
+.badge.bg-primary {
+    background-color: #007bff !important;
+    color: #fff;
+}
+
+
+.filter-btn {
+    color: #fff;
+    border-color: #fff;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background-color: #ffd700;
+    border-color: #ffd700;
+    color: #212529;
+}
+
+
+.page-header {
+    color: #fff;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.page-header .lead {
+    color: #e9ecef;
+}
+
+
+.overlay-icons .icon-link {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.overlay-icons .icon-link:hover {
+    background: #ffd700;
+    color: #212529;
 }
